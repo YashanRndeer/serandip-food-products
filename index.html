@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serandip Food Products</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Main Header -->
+  <header class="main-header">
+    <div class="container navbar">
+     <div class="logo-area">
+  <div class="logo">
+    <img src="logo.png" alt="Serandip Food Products Logo" />
+  </div>
+</div>
+
+
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="active">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <!-- Search Bar --> 
+       <div id="poda">
+  <div class="glow"></div>
+  <div class="darkBorderBg"></div>
+  <div class="darkBorderBg"></div>
+  <div class="darkBorderBg"></div>
+  <div class="white"></div>
+  <div class="border"></div>
+
+  <div id="main">
+    <input class="input" name="text" type="text" placeholder="Search..." />
+    <div id="pink-mask"></div>
+    <div class="filterBorder"></div>
+
+    <div id="filter-icon">
+      <svg
+        fill="none"
+        viewBox="4.8 4.56 14.832 15.408"
+        width="27"
+        height="27"
+        preserveAspectRatio="none"
+      >
+        <path
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-miterlimit="10"
+          stroke-width="1"
+          stroke="#d6d6e6"
+          d="M8.16 6.65002H15.83C16.47 6.65002 16.99 7.17002 16.99 7.81002V9.09002C16.99 9.56002 16.7 10.14 16.41 10.43L13.91 12.64C13.56 12.93 13.33 13.51 13.33 13.98V16.48C13.33 16.83 13.1 17.29 12.81 17.47L12 17.98C11.24 18.45 10.2 17.92 10.2 16.99V13.91C10.2 13.5 9.97 12.98 9.73 12.69L7.52 10.36C7.23 10.08 7 9.55002 7 9.20002V7.87002C7 7.17002 7.52 6.65002 8.16 6.65002Z"
+        ></path>
+      </svg>
+    </div>
+
+    <div id="search-icon">
+      <svg
+        class="feather feather-search"
+        fill="none"
+        height="24"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="11" cy="11" r="8" stroke="url(#search)"></circle>
+        <line
+          x1="22"
+          x2="16.65"
+          y1="22"
+          y2="16.65"
+          stroke="url(#searchl)"
+        ></line>
+        <defs>
+          <linearGradient id="search" gradientTransform="rotate(50)">
+            <stop offset="0%" stop-color="#f8e7f8"></stop>
+            <stop offset="50%" stop-color="#b6a9b7"></stop>
+          </linearGradient>
+          <linearGradient id="searchl">
+            <stop offset="0%" stop-color="#b6a9b7"></stop>
+            <stop offset="50%" stop-color="#837484"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </div>
+</div>
+
+        <button class="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+ 
+  <!-- Hero Section -->
+ <section class="hero" id="home">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>Pure & Premium<br />Sri Lankan Spices</h1>
+      <p>
+        Freshly packed flavors from Serandip Food Products.
+        Bring rich aroma and authentic taste to every meal.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-gold">Shop Now</a>
+        <a href="#contact" class="btn btn-red">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="hero-slider">
+      <div class="slider-track">
+        <div class="slide"><img src="Sources/items/1.png" alt="Pepper Powder" /></div>
+        <div class="slide"><img src="Sources/items/2.png" alt="Pepper Corn" /></div>
+        <div class="slide"><img src="Sources/items/3.png" alt="Turmeric Powder" /></div>
+        <div class="slide"><img src="Sources/items/4.png" alt="Chicken Curry Powder" /></div>
+        <div class="slide"><img src="Sources/items/5.png" alt="Roasted Curry Powder" /></div>
+        <div class="slide"><img src="Sources/items/6.png" alt="Cinnamon Powder" /></div>
+        <div class="slide"><img src="Sources/items/7.png" alt="Cinnamon Sticks" /></div>
+        <div class="slide"><img src="Sources/items/8.png" alt="Chilli Powder" /></div>
+      </div>
+      <div class="hero-slider">
+      <div aria-hidden class="slider-track">
+        <div class="slide"><img src="Sources/items/1.png" alt="Pepper Powder" /></div>
+        <div class="slide"><img src="Sources/items/2.png" alt="Pepper Corn" /></div>
+        <div class="slide"><img src="Sources/items/3.png" alt="Turmeric Powder" /></div>
+        <div class="slide"><img src="Sources/items/4.png" alt="Chicken Curry Powder" /></div>
+        <div class="slide"><img src="Sources/items/5.png" alt="Roasted Curry Powder" /></div>
+        <div class="slide"><img src="Sources/items/6.png" alt="Cinnamon Powder" /></div>
+        <div class="slide"><img src="Sources/items/7.png" alt="Cinnamon Sticks" /></div>
+        <div class="slide"><img src="Sources/items/8.png" alt="Chilli Powder" /></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Products -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Featured Products</h2>
+        <p>Explore our best-selling spices</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="Sources/pepper-powder.png" 
+            alt="Pepper Powder"
+          />
+          <h3>Pepper Powder</h3>
+          <p class="price">Rs. 450.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+             src="Sources/pepper-corn.png" 
+            alt="Pepper Corn"
+          />
+          <h3>Pepper Corn</h3>
+          <p class="price">Rs. 500.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/turmeric-powder.png" 
+            alt="Turmeric Powder"
+          />
+          <h3>Turmeric Powder</h3>
+          <p class="price">Rs. 400.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            
+             src="Sources/chicken-curry-powder.png"
+            alt="Chicken Curry Powder"
+          />
+          <h3>Chicken Curry Powder</h3>
+          <p class="price">Rs. 550.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/roasted-curry-powder.png"
+            alt="Roasted Curry Powder"
+          />
+          <h3>Roasted Curry Powder</h3>
+          <p class="price">Rs. 580.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/cinnamon-powder.png"
+            alt="Cinnamon Powder"
+          />
+          <h3>Cinnamon Powder</h3>
+          <p class="price">Rs. 600.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/cinnamon-sticks.png"
+            alt="Cinnamon Sticks"
+          />
+          <h3>Cinnamon Sticks</h3>
+          <p class="price">Rs. 650.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/chilli-powder.png"
+            alt="Chilli Powder"
+          />
+          <h3>Chilli Powder</h3>
+          <p class="price">Rs. 430.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="Sources/crushed-chilli.png"
+            alt="Crushed Chilli"
+          />
+          <h3>Crushed Chilli</h3>
+          <p class="price">Rs. 450.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+       
+
+       
+
+        <div class="product-card">
+          <img
+            src="Sources/cinnamon-sticks.png"
+            alt="Cinnamon Sticks"
+          />
+          <h3>Cinnamon Sticks</h3>
+          <p class="price">Rs. 650.00</p>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+        
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-choose section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Why Choose Serandip Food Products?</h2>
+        <p>Quality you can trust in every pack</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3>100% Pure Spices</h3>
+          <p>Fresh, clean, and carefully selected ingredients for better taste.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="icon"><i class="fa-solid fa-box"></i></div>
+          <h3>Quality Packaging</h3>
+          <p>Well-packed products to protect aroma, quality, and freshness.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="icon"><i class="fa-solid fa-mortar-pestle"></i></div>
+          <h3>Rich in Flavor</h3>
+          <p>Bring traditional Sri Lankan flavor to your daily cooking.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <h3>Trusted Brand</h3>
+          <p>Reliable quality products made with care for every customer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+ <section class="about section" id="about">
+  <div class="container about-content">
+    <div class="about-image">
+      <img
+        src="Sources/other/about1.jpg"
+        alt="About Serandip spices"
+      />
+      </div>
+
+      <div class="about-text">
+        <h2>About Serandip Food Products</h2>
+        <p>
+          Serandip Food Products is dedicated to providing premium quality spices
+          with authentic Sri Lankan flavor. Our products are carefully selected,
+          hygienically packed, and prepared to deliver freshness to every kitchen.
+        </p>
+        <p>
+          From pepper and cinnamon to curry powders, we bring natural taste and
+          rich aroma to homes and businesses.
+        </p>
+        <a href="#contact" class="btn btn-gold">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>Get in touch with Serandip Food Products</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Business Information</h3>
+          <p><i class="fa-solid fa-phone"></i> +94 701081828</p>
+          <p><i class="fa-solid fa-envelope"></i> serandipfoodproducts@gmail.com</p>
+          <p><i class="fa-solid fa-location-dot"></i> Sri Lanka</p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-red">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3>Serandip Food Products</h3>
+        <p>Pure and premium Sri Lankan spices for every kitchen.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>+94 701081828</p>
+        <p>serandipfoodproducts@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Serandip Food Products. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
