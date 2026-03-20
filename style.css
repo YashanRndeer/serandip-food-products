@@ -376,7 +376,7 @@ a {
 }
 
 .product-card {
-  background: var(--white);
+  background:  rgba(255, 250, 242, 0.747);
   border: 1px solid #f0dcc0;
   border-radius: 24px;
   overflow: hidden;
